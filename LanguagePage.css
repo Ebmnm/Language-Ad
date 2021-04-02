@@ -1,0 +1,107 @@
+body {
+    background-color: mediumspringgreen;
+    text-align: center;
+  }
+  #but {
+    margin-top: 30px;
+    display: flex;
+    text-align: left;
+    position: absolute;
+    align-self: flex-start;
+    left: 60px; /* new */
+    top: 0;
+  }
+  button {
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    border-radius: 50px;
+    border: 1px solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #fffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #283966;
+  }
+  
+  h1 {
+    font-size: 3.5em;
+    font-style: oblique;
+  }
+  h2 {
+    font-style: italic;
+    font-size: 2em;
+  }
+  img {
+    height: 100%;
+    width: 40%;
+    left: 100px;
+    position: relative;
+    left: 150px;
+  }
+  section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 20%;
+    background-color: black;
+    border: 6px solid black;
+  }
+  .imspan {
+    display: flex;
+    height: 400px;
+    background-color: rgb(10, 220, 90);
+  }
+  .headr {
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .card {
+    background-color: powderblue;
+    border: 4px black solid;
+  }
+  h3 {
+    font-weight: bold;
+  }
+
+@media  (max-width: 1368px) {
+  img {
+    height:80%;
+    width:50%;
+    margin: 0 auto;
+    left:0px;
+
+  }
+  .imspan{
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 955px) {
+  img{
+    height:80%;
+    width:50%;
+  }
+}
+
+@media (max-width: 550px) {
+  img{
+    height:50%;
+    width:50%;
+  }
+
+  section{
+    border: none;
+  }
+}
+
+@media(max-width:420px) {
+  section{
+    margin:auto;
+  }
+}
